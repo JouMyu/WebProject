@@ -1,0 +1,117 @@
+nav {
+			float: right;
+		}
+		
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}		
+		
+		nav li {
+			display: inline-block;
+			margin-left: 80px;
+			padding-top: 40px;
+			position: relative;
+		}
+		
+		body {
+			background-image: url("RightRedBull.jpg");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+  			background-size: cover;
+  			background-position: center;
+  			color: white;
+  			font-family: Avenir, sans-serif;
+			font-style: normal;
+			margin: 0px;
+			padding: 0px;
+		}	
+		
+		.sub {
+			font-size: 2vw;
+			font-weight: 0;
+			margin: 25px;
+			
+			
+		}
+		
+		.sub2 {
+			
+			font-size: 1.5vw;
+			padding-top: 30px;
+			margin: 50px;
+		}
+		
+		.paragraph {
+			font-size: 1vw;
+			margin: 50px;
+				
+		}
+		
+		.heading {
+			font-size: 3vw;
+		}
+		
+		.container {
+			width: 80%;
+			height: 100px;
+			margin: 0 auto;
+			padding: 0;
+		}
+		
+		header {
+			background: #142635;
+		}
+		
+		.logo {
+			float: left;
+			padding: 10px 0;
+			
+		}
+		
+		nav a {
+			color: #FFF;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+		
+		nav a::before {
+			content: '';
+			display: block;
+			height: 5px;
+			width: 100%;
+			background: #E21B4D;
+			position: absolute;
+			
+			top: 0;
+			width: 	0%;
+		}
+		
+		nav a:hover {
+			color: #E21B4D;
+		}
+		
+		nav a:hover::before {
+			width: 100%;
+			transition: all ease-in-out 250ms;
+		}
+		
+		
+		div.gallery {
+  		margin: 3px;
+  		border: 1px solid #ccc;
+  		float: left;
+		}
+
+		div.gallery:hover {
+  		border: 1px solid #777;
+		}
+
+
+		div.desc {
+  		padding: 15px;
+  		text-align: center;
+  		position: relative;
+  		background: rgba(0, 0, 0, 0.6);
+		}
